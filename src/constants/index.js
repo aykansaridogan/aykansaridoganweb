@@ -11,7 +11,6 @@ import {
   pythonlogo,
   php,
   postgre,
-  android,
 
   nodejs,
   vuejs,
@@ -111,7 +110,6 @@ const technologies = [
     name: "Php",
     icon: php,
   },
-  { name: "Android Studio", icon: android },
   {
     name: "git",
     icon: git,
