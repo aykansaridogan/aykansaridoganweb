@@ -265,7 +265,7 @@ const projects = [
       },
     ],
     image: magiclinerp,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.saridogan.net/#work",
   },
   {
     name: "Kafe APP UI/UX",
@@ -286,7 +286,7 @@ const projects = [
       },
     ],
     image: kafeapp,
-    source_code_link: "https://github.com/aykansaridogan/kafe",
+    source_code_link: "https://www.saridogan.net/#work",
   },
 ];
 

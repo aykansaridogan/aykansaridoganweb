@@ -28,20 +28,23 @@ const Contact = () => {
   };
 
   const sendEmail = (formData) => {
-    emailjs.sendForm('service_3hfw45d', 'template_vy2pwya', formData, 'IQrw8pCinj98N0BCk')
+    // Define your service ID, template ID, and user ID from EmailJS dashboard
+    const serviceId = 'your_service_id';
+    const templateId = 'your_template_id';
+    const userId = 'your_user_id';
+
+    emailjs.send(serviceId, templateId, formData, userId)
       .then((result) => {
         console.log('Email sent successfully:', result.text);
         alert('Email sent successfully!');
-        setLoading(false); // setLoading(false) buraya taşındı
+        setLoading(false); // E-posta gönderildiğinde loading durumunu false yapar
       })
       .catch((error) => {
         console.error('Email sending failed:', error);
         alert('Failed to send email. Please try again later.');
-        setLoading(false); // setLoading(false) buraya taşındı
+        setLoading(false); // E-posta gönderilemediğinde loading durumunu false yapar
       });
   };
-  
-  
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -50,9 +53,9 @@ const Contact = () => {
       email: form.email,
       message: form.message
     };
-    setLoading(true);
-    sendEmail(formData);
-    setLoading(false);
+    setLoading(true); // Gönderim işlemi başladığında loading durumu aktif edilir
+    sendEmail(formData); // sendEmail fonksiyonu çağrılır
+    // setLoading(false); // Buradaki setLoading(false) kaldırıldı, çünkü sendEmail içinde zaten kullanılıyor
   };
 
   return (
