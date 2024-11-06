@@ -16,15 +16,16 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, My name is <span className='text-[#915EFF]'>Aykan</span>
+            Hi, I'm <span className='text-[#915EFF]'>Aykan</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Generally, I develop Embedded Systems and Mobile Applications.
- <br className='sm:block hidden' />
- I am confident in Frontend, but my Backend is realistically less than that.
+            I'm a Full Stack Developer with a strong focus on Frontend development. 
+            <br className='sm:block hidden' />
+            I enjoy building dynamic web applications and scalable backend systems.
           </p>
         </div>
-      </div>
+
+</div>
 
       <ComputersCanvas />
 

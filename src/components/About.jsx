@@ -39,15 +39,17 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Briefly </p>
-        <h2 className={styles.sectionHeadText}>About Me.</h2>
+        <p className={styles.sectionSubText}>A Little Bit About Me</p>
+        <h2 className={styles.sectionHeadText}>Who I Am.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a talented software developer with TypeScript and JavaScript experience and expertise in languages ​​and libraries such as React, Node.js, Python and Flutter. I learn quickly and work closely with customers to create efficient, scalable and user-friendly solutions that solve real-world problems. My goal is to take myself to the highest level with the companies I work/will work for.
+        I'm a dedicated Full Stack Developer with strong expertise in TypeScript, JavaScript, and various frameworks and libraries such as React, Node.js, Python, and Flutter. I have a passion for learning and love collaborating with teams to craft efficient, scalable, and user-centric solutions. My focus is on building applications that solve real-world problems while continuously growing and improving my skills.
+        <br />
+        My goal is to work alongside dynamic teams to take on exciting challenges and contribute to impactful projects.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

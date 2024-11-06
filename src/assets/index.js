@@ -26,6 +26,7 @@ import myway from "./company/myway_consulting_logo.jpeg";
 import mypo from "./company/mypo_teknology_logo.jpeg";
 import ottonom from "./company/ottonom_logo.jpeg";
 import magicline from "./company/magicline_logo.png";
+import mongery from "./company/mongery.png";
 
 import myway2 from "./images/myway-website.png";
 import imagewatermark from "./images/image_watermark.png";
@@ -58,6 +59,7 @@ export {
   myway,
   mypo,
   magicline,
+  mongery,
   ottonom,
   myway2,
   imagewatermark,

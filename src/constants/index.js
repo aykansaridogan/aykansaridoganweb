@@ -22,6 +22,7 @@ import {
   ottonom,
   myway,
   magicline,
+  mongery,
   myway2,
   imagewatermark,
   ledcontrol,
@@ -46,7 +47,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
@@ -54,13 +55,14 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
     title: "Python Developer",
     icon: creator,
   },
+  {
+    title: "React Developer",
+    icon: backend,
+  },
+
 ];
 
 const technologies = [
@@ -103,12 +105,12 @@ const technologies = [
   },
 
   {
-    name: "CSS 3",
-    icon: css,
+    name: "python",
+    icon: pythonlogo,
   },
   {
-    name: "Php",
-    icon: php,
+    name: "Postgre",
+    icon: postgre,
   },
   {
     name: "git",
@@ -168,11 +170,26 @@ const experiences = [
     company_name: "Magicline Energy Systems",
     icon: magicline,
     iconBg: "#E6DEDD",
-    date: "April 2024 – Present",
+    date: "April 2024 – October 2024",
     points: [
-
+      "At Magicline Enerji, I had the opportunity to work on electric charging stations. Specifically:",
+      "• Optimized charging station units.",
+      "• Developed a WhatsApp Customer Service Bot using NodeJS and whatsappweb.js for easier communication with customers.",
+      "• Created an ERP program using Flutter's Windows development capabilities to enhance internal communication.",
+      "• Assisted in monitoring charging station units and troubleshooting issues.",
     ],
   },
+  {
+    title: "Full Stack Developer",
+    company_name: "Mongery Software",
+    icon: mongery,  // icon burada mongery olacak
+    iconBg: "#E6DEDD",
+    date: "October 2024 – Present",
+    points: [],
+  }
+  
+
+  
 ];
 
 
